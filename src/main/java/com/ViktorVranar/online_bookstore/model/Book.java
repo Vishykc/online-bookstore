@@ -19,7 +19,3 @@ public class Book {
     @Enumerated(EnumType.STRING)
     private BookType type;
 }
-
-enum BookType {
-    NEW_RELEASE, REGULAR, OLD_EDITION
-}
